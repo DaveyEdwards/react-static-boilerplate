@@ -4,9 +4,11 @@ import { Route, IndexRoute } from 'react-router';
 import {
   App,
   Home,
-  About,
   NotFound,
 } from './components';
+
+// New About path
+import About from './components/About'
 
 export const routes = (
   <Route path='/' title='App' component={App}>

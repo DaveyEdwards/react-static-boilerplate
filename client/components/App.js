@@ -10,14 +10,7 @@ import logo from './react-logo.png';
 // Favicon link is created server-side, this just makes webpack package it
 import './favicon.ico';
 
-export const About = props => (
-  <div className={s.page}>
-    <div className={s.siteTitle}>
-      <h1>About</h1>
-    </div>
-    <p>Welcome, to about us.</p>
-  </div>
-);
+// Removed About
 
 export const Home = props => (
   <div className={s.page}>
